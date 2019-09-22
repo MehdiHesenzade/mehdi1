@@ -1,0 +1,134 @@
+
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.wrapper{
+    width: 80%;
+    margin:auto;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+ul{
+    list-style: none;
+}
+/*header start*/
+.logo{
+    float: left;
+    color:white;
+}
+.menu-ul{
+    float: right;
+    
+}
+.menu-li{ float: left;
+    padding:0 15px;
+
+}
+
+/*header end*/
+/*favorite start*/
+.favorite{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/bg-masthead.jpg)
+    
+    }
+    .favorite-text{
+        text-align: center;
+        padding:150px 0;
+    }
+    .favorite-text h1{
+        color:white;
+        font-size:50px;
+    }
+    .favorite-text p{
+        color:rgba(255,255,255,.75);
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+   .favorite hr{
+        width: 50px;
+        border: 2px solid #f4623a;}
+        
+        .find{ background:#f4623a;
+         color:white;
+         padding: 12px 30px;
+         border-radius: 30px;
+         text-transform: uppercase;
+        }
+        .find:hover{
+            background-color:rgb(68, 5, 5);
+            color:rgb(138, 131, 131);
+        }
+        a:hover{
+            color:rgb(121, 115, 115);
+        }
+/*favorite end*/
+/*nedd start*/
+
+
+.need{
+    text-align: center;
+    background-color:#f4623a!important;
+    padding:120px 0px;
+}
+.text-need{
+    font-size:30px;
+    
+    color:white;
+}
+.need hr{
+    color:white;
+    width: 50px;
+    border:2px solid white;
+}
+.need p{
+    color:rgba(255,255,255,.5)!important;
+    padding-bottom:20px;
+}
+.get{
+    text-transform: uppercase;
+    padding:15px 25px;
+    background-color: white;
+    color:black;
+    border-radius:30px;
+} 
+.get:hover{
+    background-color: rgb(192, 184, 184);
+    color:white;
+}
+
+/*nedd end*/
+/*icon start*/
+.icon-text{ 
+    text-align: center;
+    font-size: 30px;
+    
+}
+.icon{
+    width: 25%;
+    box-sizing: border-box;
+    float:left;
+    text-align: center;}
+    
+.icon i{
+    font-size: 70px;
+    color:#f4623a;
+   
+}
+.hr-icon{
+    width: 50px;
+    border:2px solid #f4623a;
+    
+}
+.wrapper p{
+    color:grey;
+}
+/*icon end*/
+
+
+
+
