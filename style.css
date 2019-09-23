@@ -103,6 +103,13 @@ ul{
 
 /*nedd end*/
 /*icon start*/
+.section{background-color:white;
+
+    
+
+}
+.sec-text{ display: flex;
+}
 .icon-text{ 
     text-align: center;
     font-size: 30px;
@@ -111,7 +118,7 @@ ul{
 .icon{
     width: 25%;
     box-sizing: border-box;
-    float:left;
+   
     text-align: center;}
     
 .icon i{
@@ -129,6 +136,17 @@ ul{
 }
 /*icon end*/
 
-
+.transform{
+    display:flex;
+    justify-content:center;
+}
+.transform img{
+    margin:50px;
+}
+.transform img:hover{
+    transition:transform .5s;
+   transform: translate(30px);
+   transform:scale(0.5)
+}
 
 
